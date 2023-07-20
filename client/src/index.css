@@ -1,0 +1,154 @@
+/*nav bar*/
+
+.custom-navbar{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.custom-brand-name{
+  font-size: 24px;
+  color: var(--gray-dark);
+}
+
+.custom-container-login{
+  cursor: pointer;
+}
+
+.custom-login-icon{
+  font-size: 24px;
+  color: var(--gray-dark);
+  font-weight: bold;
+}
+
+/* home page*/
+.custom-feed-container{
+  margin-top: 7.5%;
+}
+
+.custom-card{
+  margin-bottom: 5%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.custom-card-img{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+
+.custom-card-header{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.custom-card-description{
+  font-size: 16px;
+  color: #777777;
+  line-height: 1.5;
+}
+
+.custom-card-read-more:hover{
+  background-color: var(--primary);
+  transform: scale(1.01);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card-read-more{
+  border: none;
+  background-color: var(--gray-dark);
+}
+
+
+/*page */
+
+.custom-page-public{
+  margin-top: 7.5%;
+  margin-bottom: 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+h1{
+  font-size: 36px;
+  color: var(--gray-dar);
+  margin-bottom: 20px;
+}
+
+
+.custom-img-page{
+  width: 75%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+p{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*login*/
+
+.custom-login-container{
+  margin-top: 7.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+
+/* editable*/
+.custom-page-backoffice {
+  margin-top: 7.5%;
+  margin-bottom: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.custom-form-page-public {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.custom-paragraph-form {
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.custom-header-form {
+  font-size: 36px;
+  color: var(--gray-dar);
+  margin-bottom: 20px;
+}
+
+.custom-edit-menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.custom-on-submit-opiton {
+  gap: 10px;
+}
+
+.custom-button {
+  width: 50%;
+}
+
+.custom-admin-update {
+  gap: 15px;
+  width: 500px;
+}
